@@ -3,9 +3,9 @@
   max-width: 100%;
 }
 
-button.navbar-toggler {
+/* button.navbar-toggler {
     visibility:hidden;
-}
+} */
 
 :root {
     --Hwzn_Bold: Hwzn_Bold;
@@ -1050,6 +1050,28 @@ footer{
 
 /* ################################################################## */
 /* ###################### End Page Single Project ################# */
+/* ################################################################# */
+
+
+/* ################################################################## */
+/* ###################### Start Menu Mobile ################# */
+/* ################################################################# */
+
+.Mobile_Menu{
+    display: flex Im !important;
+    flex-direction: column-reverse !important;
+}
+.Mobile_Menu li {
+    border-bottom: 2px solid var(--main_color);
+    padding: 10px;
+}
+.Mobile_Menu li a{
+    color: var(--main_color);
+    font-family: var(--Hwzn_oo);
+}
+
+/* ################################################################## */
+/* ###################### End Menu Mobile ################# */
 /* ################################################################# */
 
 @keyframes Mouse_Animation {
