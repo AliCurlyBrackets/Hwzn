@@ -1,7 +1,8 @@
 * {
   box-sizing: border-box;
   max-width: 100%;
-  overflow-x: hidden;
+  position: relative;
+  overflow: hidden;
 }
 
 /* Start Scroll Colors */
@@ -349,8 +350,13 @@ a{
     direction: rtl;
     padding-top: 20px;
     padding-bottom: 40px;
+    position: relative;
+    overflow: hidden;
 }
-
+.Portofolio_Filter .col_filter{
+    position: relative;
+    overflow: hidden;
+}
 .Portofolio_Filter .title_slider_Section{
     color:#fff;
 }
