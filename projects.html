@@ -25,6 +25,7 @@
 
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
 
     <title> المشاريع الجاهزة </title>
@@ -91,7 +92,7 @@
 
         <div class="Background_Hero_Project">
             <div class="Hero_Project">
-                <div class="Img_Hero_Project">
+                <div class="Img_Hero_Project  wow animate__animated animate__bounceInRight">
                     <img src="assets/images/Bg_Hero/Hero_Project/Mask group.png" alt="">
                 </div>
                 <div class="Info_Hero_Project">
@@ -117,11 +118,12 @@
     </div>
     <!-- End  Hero Section -->
 
+    <!-- Start Subscrip Section -->
     <div class="Subscrip">
         <div class="container">
             <div class="row SUB_ROW">
                 <div class="col-lg-6 col-md-6 col-sm-12">
-                    <div class="Info_Sub">
+                    <div class="Info_Sub wow animate__animated animate__bounceInRight">
                         <h2> مميزات الاشتراك الشهري </h2>
                         <p>
                             هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص
@@ -141,13 +143,13 @@
                 </div>
 
                 <div class="col-lg-6 col-md-6 col-sm-12">
-                    <img src="assets/images/Projects/Subscripe.png" alt="">
+                    <img src="assets/images/Projects/Subscripe.png" class=" wow animate__animated animate__bounceInLeft" alt="">
                 </div>
 
             </div>
         </div>
     </div>
-
+   <!-- End Subscrip Section -->
 
     <!-- Start Services Text -->
     <div class="Services_Text">
@@ -165,20 +167,20 @@
     <div class="Three_Serv">
         <div class="container All_Three_Serv">
 
-            <div class="Serv_Item">
+            <div class="Serv_Item wow animate__animated animate__bounceInRight" data-wow-delay="0.2s">
                 <h6> تطوير اضافي </h6>
                 <p> هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى</p>
             </div>
 
 
-            <div class="Serv_Item">
+            <div class="Serv_Item wow animate__animated animate__bounceInRight" data-wow-delay="0.4s">
                 <h6> صيانه </h6>
                 <p> هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى</p>
             </div>
 
 
 
-            <div class="Serv_Item">
+            <div class="Serv_Item wow animate__animated animate__bounceInRight" data-wow-delay="0.6s">
                 <h6> دعم </h6>
                 <p> هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى</p>
             </div>
@@ -198,7 +200,7 @@
 
 
     <!-- Start Services Text -->
-    <div class="Services_Text mb-5">
+    <div class="Services_Text mb-5 ">
         <div class="container">
             <h3> تصنيفات التطبيقات </h3>
             <p>
@@ -211,7 +213,7 @@
 
 
     <!-- Start Slider Programmers -->
-    <section class="Slider_Logo swiper_Programmers_Slider mt-5 mb-5">
+    <section class="Slider_Logo swiper_Programmers_Slider mt-5 mb-5  wow animate__animated animate__bounceInUp">
         <div class="container">
 
             <div class="swiper swiper_Programmers" style="position: relative;">
@@ -684,7 +686,11 @@
     <!-- End Script Main Js -->
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
+    <!-- قبل </body> مباشرة -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script>
+  new WOW().init();
+</script>
 </body>
 
 </html>

@@ -21,10 +21,10 @@
     <!-- Isotope -->
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
     <!-- End Bootstrap -->
-
-
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- داخل <head> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
 
 
     <title> هوزن تك </title>
@@ -91,7 +91,7 @@
 
         <div class="Background_Hero">
             <div class="Hero_Content">
-                <h2 class="Title_Hero_Section">
+                <h2 class="Title_Hero_Section wow animate__animated animate__bounceInLeft">
                     هوزن تك ..
                     <br />
                     شريكك التقني الأمثل
@@ -117,57 +117,57 @@
     <!-- End  Hero Section -->
 
 
-    <!-- Start Slider Logos -->
-    <section class="Slider_Logo mt-5 mb-5">
-        <div class="container">
+        <!-- Start Slider Logos -->
+        <section class="Slider_Logo mt-5 mb-5">
+            <div class="container">
 
-            <h2 class="title_slider_Section"> عملاء نفخر بالتعامل معهم </h2>
+                <h2 class="title_slider_Section"> عملاء نفخر بالتعامل معهم </h2>
 
-            <div class="swiper swiper_logos" style="position: relative;">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="assets/images/Slider_Logos/Mask group-1.svg" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="assets/images/Slider_Logos/Mask group-10.svg" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="assets/images/Slider_Logos/Mask group-11.svg" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="assets/images/Slider_Logos/Mask group-2.svg" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="assets/images/Slider_Logos/Mask group-5.svg" alt="">
-                    </div>
+                <div class="swiper swiper_logos" style="position: relative;">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="assets/images/Slider_Logos/Mask group-1.svg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/images/Slider_Logos/Mask group-10.svg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/images/Slider_Logos/Mask group-11.svg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/images/Slider_Logos/Mask group-2.svg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/images/Slider_Logos/Mask group-5.svg" alt="">
+                        </div>
 
 
-                    <div class="swiper-slide">
-                        <img src="assets/images/Slider_Logos/Mask group-8.svg" alt="">
+                        <div class="swiper-slide">
+                            <img src="assets/images/Slider_Logos/Mask group-8.svg" alt="">
+                        </div>
                     </div>
+
+                    <!-- الأسهم خارج الـ wrapper -->
+                    <div class="swiper-button-prev custom-arrow">
+                        <img src="assets/images/Slider_Logos/Group 1000004435.png" alt="السابق">
+                    </div>
+
+                    <div class="swiper-button-next custom-arrow">
+                        <img src="assets/images/Slider_Logos/Group 1000004436.png" alt="التالي">
+                    </div>
+
+                    <!-- نقاط التمرير -->
+                    <div class="swiper-pagination"></div>
                 </div>
 
-                <!-- الأسهم خارج الـ wrapper -->
-                <div class="swiper-button-prev custom-arrow">
-                    <img src="assets/images/Slider_Logos/Group 1000004435.png" alt="السابق">
-                </div>
 
-                <div class="swiper-button-next custom-arrow">
-                    <img src="assets/images/Slider_Logos/Group 1000004436.png" alt="التالي">
-                </div>
-
-                <!-- نقاط التمرير -->
-                <div class="swiper-pagination"></div>
             </div>
-
-
-        </div>
-    </section>
-    <!-- Start Slider Logos -->
+        </section>
+        <!-- Start Slider Logos -->
 
 
     <!-- Start Services -->
-    <section class="services mb-5">
+    <section class="services mb-5 wow animate__animated animate__bounceInDown">
         <div class="container">
             <h2 class="title_slider_Section"> خدماتنا </h2>
 
@@ -281,7 +281,7 @@
             </div>
 
 
-            <div class="Slider_Project">
+            <div class="Slider_Project wow animate__animated animate__bounceInUp">
                 <!-- Slider main container -->
                 <div class="swiper Swiper_Project" style="position: relative;">
                     <!-- Additional required wrapper -->
@@ -421,7 +421,7 @@
                     <div class="projects">
 
 
-                        <div class="item desktop CSharp">
+                        <div class="item desktop CSharp wow animate__animated animate__bounceInRight"data-wow-delay="0.5s">
                             <div class="card_portofolio">
                                 <img src="assets/images/Projects/8b55195b50405af62b4302f333dd076daf047808.png"
                                     class="card-img-top" alt="...">
@@ -438,25 +438,7 @@
                         </div>
 
 
-                        <div class="item Web CSharp">
-                            <div class="card_portofolio">
-                                <img src="assets/images/Projects/8b55195b50405af62b4302f333dd076daf047808.png"
-                                    class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title mb-3 text-center"> اسم المشروع </h5>
-                                    <a href="">
-                                        <button>
-                                            <img src="assets/images/Services/arrow-right-02-round.png" alt="">
-                                            المزيد
-                                        </button>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-
-
-                        <div class="item design CSharp">
+                        <div class="item Web CSharp wow animate__animated animate__bounceInRight" data-wow-delay="0.8s">
                             <div class="card_portofolio">
                                 <img src="assets/images/Projects/8b55195b50405af62b4302f333dd076daf047808.png"
                                     class="card-img-top" alt="...">
@@ -474,7 +456,7 @@
 
 
 
-                        <div class="item desktop CSharp">
+                        <div class="item Web CSharp wow animate__animated animate__bounceInRight" data-wow-delay="1s">
                             <div class="card_portofolio">
                                 <img src="assets/images/Projects/8b55195b50405af62b4302f333dd076daf047808.png"
                                     class="card-img-top" alt="...">
@@ -492,7 +474,25 @@
 
 
 
-                        <div class="item Web CSharp">
+                        <div class="item Web CSharp wow animate__animated animate__bounceInRight" data-wow-delay="1.2s">
+                            <div class="card_portofolio">
+                                <img src="assets/images/Projects/8b55195b50405af62b4302f333dd076daf047808.png"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title mb-3 text-center"> اسم المشروع </h5>
+                                    <a href="">
+                                        <button>
+                                            <img src="assets/images/Services/arrow-right-02-round.png" alt="">
+                                            المزيد
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="item Web CSharp wow animate__animated animate__bounceInRight" data-wow-delay="1.4s">
                             <div class="card_portofolio">
                                 <img src="assets/images/Projects/8b55195b50405af62b4302f333dd076daf047808.png"
                                     class="card-img-top" alt="...">
@@ -508,7 +508,7 @@
                             </div>
                         </div>
 
-                        <div class="item desktop CSharp">
+                        <div class="item Web CSharp wow animate__animated animate__bounceInRight" data-wow-delay="1.6s">
                             <div class="card_portofolio">
                                 <img src="assets/images/Projects/8b55195b50405af62b4302f333dd076daf047808.png"
                                     class="card-img-top" alt="...">
@@ -525,25 +525,7 @@
                         </div>
 
 
-                        <div class="item Web CSharp">
-                            <div class="card_portofolio">
-                                <img src="assets/images/Projects/8b55195b50405af62b4302f333dd076daf047808.png"
-                                    class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title mb-3 text-center"> اسم المشروع </h5>
-                                    <a href="">
-                                        <button>
-                                            <img src="assets/images/Services/arrow-right-02-round.png" alt="">
-                                            المزيد
-                                        </button>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-
-
-                        <div class="item design CSharp">
+                        <div class="item Web CSharp wow animate__animated animate__bounceInRight" data-wow-delay="1.8s">
                             <div class="card_portofolio">
                                 <img src="assets/images/Projects/8b55195b50405af62b4302f333dd076daf047808.png"
                                     class="card-img-top" alt="...">
@@ -561,7 +543,7 @@
 
 
 
-                        <div class="item desktop CSharp">
+                        <div class="item Web CSharp wow animate__animated animate__bounceInRight" data-wow-delay="2s">
                             <div class="card_portofolio">
                                 <img src="assets/images/Projects/8b55195b50405af62b4302f333dd076daf047808.png"
                                     class="card-img-top" alt="...">
@@ -579,7 +561,25 @@
 
 
 
-                        <div class="item Web CSharp">
+                        <div class="item Web CSharp wow animate__animated animate__bounceInRight" data-wow-delay="2.2s">
+                            <div class="card_portofolio">
+                                <img src="assets/images/Projects/8b55195b50405af62b4302f333dd076daf047808.png"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title mb-3 text-center"> اسم المشروع </h5>
+                                    <a href="">
+                                        <button>
+                                            <img src="assets/images/Services/arrow-right-02-round.png" alt="">
+                                            المزيد
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="item Web CSharp wow animate__animated animate__bounceInRight" data-wow-delay="2.4s">
                             <div class="card_portofolio">
                                 <img src="assets/images/Projects/8b55195b50405af62b4302f333dd076daf047808.png"
                                     class="card-img-top" alt="...">
@@ -613,7 +613,7 @@
     <div class="qwader">
         <div class="container qwader_Swction">
 
-            <div class="Info_Qwader">
+            <div class="Info_Qwader wow animate__animated animate__bounceInRight">
                 <h2 class="title_slider_Section"> المشاريع الجاهزة </h2>
                 <p>
                     هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث
@@ -639,7 +639,7 @@
                 </div>
             </div>
 
-            <div class="Fram_Vedio">
+            <div class="Fram_Vedio wow animate__animated animate__bounceInLeft">
                 <img src="assets/images/Qwader/fram_vedio.png" alt="">
             </div>
 
@@ -651,7 +651,7 @@
     <!-- Start ERP Section -->
     <div class="ERP_Section">
         <div class="All_ERP_Section">
-            <div class="Info_ERP">
+            <div class="Info_ERP  wow animate__animated animate__bounceInRight">
                 <h2 class="title_slider_Section"> أنظمة ERP </h2>
                 <p class="Info_P">
                     هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث
@@ -681,7 +681,7 @@
                     </a>
                 </div>
             </div>
-            <div class="ERP_Image">
+            <div class="ERP_Image  wow animate__animated animate__bounceInLeft">
                 <img src="assets/images/ERP/ERP.png" alt="">
             </div>
         </div>
@@ -1038,6 +1038,10 @@
             },
         });
     </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script>
+  new WOW().init();
+</script>
 </body>
 
 </html>
