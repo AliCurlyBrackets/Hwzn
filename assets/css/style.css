@@ -2,6 +2,7 @@
   box-sizing: border-box;
   max-width: 100%;
 }
+
 /* Start Scroll Colors */
 /* width */
 ::-webkit-scrollbar {
@@ -52,7 +53,18 @@ img {
 a{
     text-decoration: none !important;
 }
+.HeroSection{
+    position: relative;
+}
+.HeroSection .Img_Hero_Project{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
 
+.HeroSection .Img_Hero_Project img {
+    width: 580px;
+}
 .HeroSection nav {
     position: absolute;
     width: 90%;
@@ -102,6 +114,7 @@ a{
     font-size: 40px;
     line-height: 70px;
     font-family: var(--Hwzn_Bold);
+    display: block;
 }
 
 .Hero_Content p.Info_Hero_Section {
@@ -316,13 +329,18 @@ a{
 } */
 .card_project {
     width: 301px;
-    height: 341px;
+    height: 371px;
     margin: 0 auto;
     border-radius: 20px;
     background: #fff;
     box-shadow: 0 4.93px 24.65px #8B9EAD33;
     overflow: hidden;
     background: #fff;
+}
+
+.card_project img.top_image {
+    height: 200px;
+    width: 100%;
 }
 
 .card_project .card-body h5,
@@ -354,6 +372,7 @@ a{
     position: relative;
     overflow: hidden;
 }
+
 .Portofolio_Filter .title_slider_Section{
     color:#fff;
 }
@@ -1081,6 +1100,49 @@ footer{
 /* ###################### End Page Single Project ################# */
 /* ################################################################# */
 
+/* ################################################################## */
+/* ###################### Start Page Category  ################# */
+/* ################################################################# */
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+.project-box h5{
+    font-family: var(--Hwzn_oo);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.project-box .image-top img {
+    display: block;
+    margin: 0 auto;
+    height: 220px;
+}
+.project-box {
+    text-align: center;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 300px;
+}
+.project-box a {
+    background: var(--main_color);
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+    font-family: var(--Hwzn_Light);
+}
+.project-box a:hover{
+    color:#fff;
+}
+/* ################################################################## */
+/* ###################### End  Page Category  ################# */
+/* ################################################################# */
 
 /* ################################################################## */
 /* ###################### Start Menu Mobile ################# */
@@ -1137,7 +1199,13 @@ footer{
     .All_Services {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        margin-top: 70px !important;
+        gap:10px;
     }
+
+    .HeroSection .Img_Hero_Project img {
+    width: 245px;
+}
 
     .All_Services .Services_Item {
         width: auto;
@@ -1339,4 +1407,75 @@ ul.filters > li > a {
     left: -25px !important;
 }
 
+.projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 8px;
+}
+
+.project-box{
+    width: auto;
+}
+.project-box a{
+    width: 90%;
+}
+
+.project-box .image-top img{
+    height: 150px;
+} 
+
+.Hero_conten_project .Lines{
+    visibility:hidden;
+}
+
+.Hero_conten_project .Mouse_Animate{
+    visibility: hidden;
+}
+
+.card_project img.top_image{
+    height: 100px;
+}
+}
+
+/* ################################################################################## */
+/* ################################################################################## */
+/* ################################################################################## */
+
+@media(min-width:601px) and (max-width:768px){
+    .Hero_conten_project .Lines{
+    visibility:hidden;
+}
+
+.Hero_conten_project .Mouse_Animate{
+    visibility: hidden;
+}
+
+.HeroSection .Img_Hero_Project img {
+    width: 280px;
+}
+
+}
+
+/* ################################################################################## */
+/* ################################################################################## */
+/* ################################################################################## */
+
+/* ################################################################################## */
+/* ################################################################################## */
+/* ################################################################################## */
+
+@media(min-width:992px) and (max-width:1200px){
+    .HeroSection .Img_Hero_Project img {
+    width: 350px;
+}
+
+}
+
+/* ################################################################################## */
+/* ################################################################################## */
+/* ################################################################################## */
+
+@media(min-width:1201px){
+    .HeroSection .Img_Hero_Project img {
+    width: 530px;
+}
 }
