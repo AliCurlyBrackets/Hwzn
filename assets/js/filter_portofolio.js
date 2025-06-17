@@ -39,7 +39,7 @@
         .find(".project-overlay")
         .css({
           top: "0"
-        });
+        }); 
       $(this)
         .find(".project-hover")
         .css({
