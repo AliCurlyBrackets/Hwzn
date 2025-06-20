@@ -54,6 +54,13 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+.flag-container{
+    padding-top:20px !important;
+}
+
+.Footer .Form_Contact .form-group select {
+    font-family: var(--Hwzn_Light) !important;
+}
 
 .button_open {
   cursor:pointer;
@@ -124,7 +131,7 @@ a{
     position: relative;
 }
 .HeroSection .Img_Hero_Project{
-    position: absolute;
+    /* position: absolute; */
     right: 0;
     bottom: 0;
 }
@@ -188,7 +195,7 @@ a{
 }
 
 .Hero_Single .Hero_Single_Content .Image_Hero_Single img{
-    width: 100%;
+    width: 70%;
     /*margin-right: 70px;*/
     margin-right: -90px;
 }
@@ -500,7 +507,7 @@ a{
 }
 .Portofolio_Filter .col_filter{
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .Portofolio_Filter .title_slider_Section{
@@ -658,7 +665,7 @@ h4.title {
     overflow: hidden;
     background: #fff;
     width: 245px;
-    height: 277px;
+    height: 295px;
 }
 .CSharp {
     position: unset !important;
@@ -1199,7 +1206,7 @@ input.wpcf7-form-control.wpcf7-phonetext.wpcf7-text.wpcf7-validates-as-phonetext
 }
 
 .swiper_Applications{
-    height: 380px;
+    height: 460px;
 }
 
 .swiper_Applications .swiper-button-next.custom-arrow img,
@@ -1465,6 +1472,7 @@ hr {
 
 /* #############  Mobile Version #################### */
 @media(max-width:600px) {
+
     
     .Swiper_Reviews .swiper-button-prev.custom-arrow {
     position: absolute;
@@ -1537,6 +1545,9 @@ hr {
         gap:10px;
     }
 
+    .Background_Hero_Project{
+        background-size: cover !important;
+    }
     .HeroSection .Img_Hero_Project img {
     width: 245px;
 }
@@ -1822,8 +1833,8 @@ ul.filters > li > a {
 .Hero_Single .Hero_Single_Content .Image_Hero_Single img {
    margin: 0 auto;
         position: relative;
-        top: 18px;
-        width:75%;
+        top: 88px;
+        width:45%;
 }
 .Hero_Single .Hero_Single_Content .Lines{
     display: none;
@@ -1978,4 +1989,17 @@ ul.filters > li > a {
     top: -10px;
 }
 
+}
+
+/* Add New Coding Server 1 */
+
+.OTP_NOW{
+    background-color: var(--main_color);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    display: block;
+    padding: 7px 20px 11px 20px;
+    font-family: var(--Hwzn_Light);
+    margin-top: 30px;
 }
