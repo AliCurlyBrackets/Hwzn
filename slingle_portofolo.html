@@ -21,23 +21,76 @@
     <!-- Isotope -->
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
     <!-- End Bootstrap -->
+
+
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <!-- داخل <head> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
+    <style>
+        .Info_Hero_Project{
+                margin-right:220px !important;
+                align-items: flex-start;
+                    display: flex;
+    flex-direction: column;
+        }
+        .Hero_Project .Lines{
+            margin: unset;
+        }
+        .Mouse_Animate{
+            position: relative;
+            left: 30px;
+        }
+        .Hero_Project .Img_Hero_Project img {
+    position: relative;
+    left: -110px;
+    bottom: -43px;
+}
+.Portofolio_Filter{
+    background: #fff;
+}
+.Portofolio_Filter .title_slider_Section{
+    color:#000;
+}
+ul.filters{
+    text-align: right !important;
+}
+
+ul.filters li a {
+    color: #000;
+}
+ul.filters > li.active > a{
+    color:#000;
+}
+@media(max-width:600px){
+    .Info_Hero_Project{
+        margin-right:0 !important;
+        align-items:center !important;
+        top: 40px;
+    }
+    .Info_Hero_Project p{
+        text-align:center !important;
+    }
+    .Hero_Project .Img_Hero_Project img{
+        left:0 !important;
+        bottom: 50px !important;
+    }
+}
 
 
-    <title> هوزن تك </title>
+    </style>
+
+    <title> اعمالنا السابقة </title>
 </head>
 
 <body>
 
 
-    <!-- Start Hero Section -->
-    <div class="HeroSection">
+     <!-- Start Hero Section -->
+     <div class="HeroSection">
         <nav class="navbar navbar-expand-lg navbar-light ">
             <div class="container-fluid">
-                <button class="navbar-toggler"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" type="button">
+                  <button class="navbar-toggler"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" type="button">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse navnbar_menu" id="navbarSupportedContent">
@@ -89,25 +142,37 @@
             </div>
         </nav>
 
-        <div class="Background_Hero">
-            <div class="Hero_Content">
-                <h2 class="Title_Hero_Section wow animate__animated animate__bounceInLeft">
-                    هوزن تك ..
-                    <br />
-                    شريكك التقني الأمثل
-                </h2>
-                <p class="Info_Hero_Section">
-                    أكثر من 13 سنة من الخبرة في مجال تطوير المواقع والتطبيقات كافية أن تضمن لك الثقة التي تبحث عنها!
-                </p>
-                <button class="Bookin">
-                    <span> <img src="assets/images/Icons/arrow-right-02-round.png" alt=""> </span>
-                    <span> احجز استشارة مجانية الان </span>
-                </button>
-                <img src="assets/images/Icons/Line 85.png" class="Lines" alt="">
-                <div class="Mouse_Animate">
-                    <a href="">
-                        <img src="assets/images/Icons/Component 2.png" alt="">
-                    </a>
+        <div class="Background_Hero_Project">
+            <div class="container">
+                <div class="Hero_Project_Dupple">
+                    <div class="row ROW_SLEX" style="height: 100vh;align-items: center;width: 100%;">
+                        <div class="col-lg-6 image-side">
+                            <div class="image_Hero image_Hero_Previous_Portofolio">
+                                <img src="assets/images/portofolio/single/Hero.png"
+                                    style="" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="Info_Hero_Project_Dupple">
+                                <h2>  اسم التطبيق  </h2>
+                                <div class="desc">
+                                    هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+                                </div>
+                                <a href="">
+                                    <button class="Bookin_Project">
+                                        <span> <img src="assets/images/Icons/arrow-right-02-round.png" alt=""> </span>
+                                        <span> احجز استشارة مجانية الان </span>
+                                    </button>
+                                </a>
+                                <img src="assets/images/Icons/Line 85.png" class="Lines" alt="">
+                                <div class="Mouse_Animate">
+                                    <a href="">
+                                        <img src="assets/images/Icons/Component 2.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -116,90 +181,132 @@
     </div>
     <!-- End  Hero Section -->
 
+   
+    <!-- Start System Design -->
+        <div class="System_Design mt-5 mb-5">
+            <h2 class="text-center title_System_Design"> نظام التصميم </h2>
+            <div class="container">
+                <div class="row" style="align-items: center;">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="Color_System">
+                            <h3 class="text-center"> الألوان </h3>
+                            <div class="color1"> FE573E </div>
+                            <div class="color2"> FE573E </div>
+                            <div class="color3"> FE573E </div>
+                            <div class="color4"> FE573E </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <img src="assets/images/portofolio/single/image 1.png" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    <!-- Start System Design -->
 
 
- <!-- Start Services Text -->
-    <div class="Services_Text mt-5">
+    <section class="Fonts mb-5">
         <div class="container">
-            <h3> من نحن </h3>
-            <p>
-                هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك
-                أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
-            </p>
+            <h2 class="text-center"> الخطوط </h2>
+            <div class="row" style="align-items: center;justify-content: space-between;">
+                <div class="col-lg-6">
+                    <img src="assets/images/portofolio/single/FontA.png"  alt="">
+                </div>
+                <div class="col-lg-6">
+                    <img src="assets/images/portofolio/single/Font.png"  alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="Step_Design">
+       <div class="container">
+        <h2 class="text-center"> مراحل التصميم </h2>
+
+        <div class="All_Step_Design">
+            <div class="Step_Item">
+                <img src="assets/images/portofolio/single/Step_Design/1.png" alt="">
+                <h3> الاكتشاف </h3>
+            </div>
+
+            <div class="Step_Item">
+                <img src="assets/images/portofolio/single/Step_Design/2.png" alt="">
+                <h3> التحديد </h3>
+            </div>
+
+            <div class="Step_Item">
+                <img src="assets/images/portofolio/single/Step_Design/3.png" alt="">
+                <h3> التفكير </h3>
+            </div>
+
+            <div class="Step_Item">
+                <img src="assets/images/portofolio/single/Step_Design/4.png" alt="">
+                <h3> التصميم </h3>
+            </div>
+        </div>
+       </div>
+
+    </section>
+    
+
+       <!-- Start Application Data Section -->
+       <div class="Application_Data_Section">
+        <div class="container">
+            <h2 class="text-center mb-5"> التعريف </h2>
+            <div class="row mb-5 Row_App_Data">
+                <div class="col-lg-6 col-md-4 col-sm-12  wow animate__animated animate__bounceInRight">
+                    <h2> خصائص التطبيق </h2>
+                    <p>
+                        هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى،
+                        حيث
+                        يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها
+                        التطبيق.
+
+                        هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى،
+                        حيث
+                        يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها
+                        التطبيق.
+                    </p>
+                    
+                </div>
+                <div class="col-lg-6 col-md-4 col-sm-12 Image_App_Data  wow animate__animated animate__bounceInLeft">
+                    <img src="assets/images/Single App/app_data.png" alt="">
+                </div>
+            </div>
+
+            <div class="row mb-5 Row_App_Data">
+
+                <div class="col-lg-6 col-md-4 col-sm-12 Image_App_Data mb-4  wow animate__animated animate__bounceInRight">
+                    <img src="assets/images/Single App/app_data.png" alt="">
+                </div>
+                <div class="col-lg-6 col-md-4 col-sm-12  wow animate__animated animate__bounceInLeft">
+                    <h2>  التحدي </h2>
+                    <p>
+                        هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى،
+                        حيث
+                        يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها
+                        التطبيق.
+
+                        هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى،
+                        حيث
+                        يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها
+                        التطبيق.
+                    </p>
+                    
+                </div>
+            </div>
+            
         </div>
     </div>
-    <!-- Start Services Text -->
+    <!-- End Application Data Section -->
 
-    <!-- Start Three Serv -->
-    <div class="Three_Serv">
-        <div class="container All_Three_Serv">
-
-            <div class="Serv_Item wow animate__animated animate__bounceInRight" data-wow-delay="0.2s">
-                <h6>  الرؤية </h6>
-                <p> هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى</p>
-                <button style="padding: 7px 20px 11px;    border: none; border-radius: 10px;">
-                                <img src="assets/images/Services/arrow-right-02-round.png" alt="">
-                                المزيد
-                            </button>
-            </div>
-
-
-            <div class="Serv_Item wow animate__animated animate__bounceInRight" data-wow-delay="0.4s">
-                <h6> الرسالة </h6>
-                <p> هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى</p>
-                <button style="padding: 7px 20px 11px;    border: none; border-radius: 10px;">
-                                <img src="assets/images/Services/arrow-right-02-round.png" alt="">
-                                المزيد
-                            </button>
-            </div>
-
-
-
-            <div class="Serv_Item wow animate__animated animate__bounceInRight" data-wow-delay="0.6s">
-                <h6> الأهداف </h6>
-                <p> هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى</p>
-                <button style="padding: 7px 20px 11px;    border: none; border-radius: 10px;">
-                                <img src="assets/images/Services/arrow-right-02-round.png" alt="">
-                                المزيد
-                            </button>
-            </div>
-
-
-        </div>
-
-
-    </div>
-    <!-- End  Three Serv -->
-
-
-   <!-- Start Qwader Section  -->
-    <div class="qwader">
-        <div class="container qwader_Swction">
-
-            <div class="Info_Qwader wow animate__animated animate__bounceInRight">
-                <h2 class="title_slider_Section">  الرؤية </h2>
-                <p>
-                    هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث
-                    يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها
-                    التطبيق.
-                    إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن
-                    يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج
-                    العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع.
-                </p>
-            </div>
-
-            <div class="Fram_Vedio wow animate__animated animate__bounceInLeft">
-                <img src="assets/images/AboutUs/about.png" alt="">
-            </div>
-
-        </div>
-    </div>
-    <!-- End  Qwader Section  -->
 
      <!-- Start Services Text -->
-    <div class="Services_Text mt-5">
+     <div class="Services_Text mt-5">
         <div class="container">
-            <h3> الرسالة </h3>
+            <h3> النتائج </h3>
             <p>
                 هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك
                 أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
@@ -208,21 +315,7 @@
     </div>
     <!-- Start Services Text -->
 
-
-     <!-- Start Services Text -->
-    <div class="Services_Text mt-5">
-        <div class="container">
-            <h3> الأهداف </h3>
-            <p>
-                هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك
-                أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
-            </p>
-        </div>
-    </div>
-    <!-- Start Services Text -->
-
-
-    <footer>
+     <footer>
         <div class="Footer container">
             <div class="row">
 
@@ -298,52 +391,53 @@
                         <img src="assets/images/Icons/Footer/call.png" alt="">
                     </div>
 
-                     <div class="Phone">
+                    <div class="Phone">
                         009123456789
                         <img src="assets/images/Icons/Footer/whatsapp.png" alt="">
                     </div>
 
 
-                     <div class="Phone">
+                    <div class="Phone">
                         009123456789
                         <img src="assets/images/Icons/Footer/elements (1).png" alt="">
                     </div>
                 </div>
 
-               <div class="test">
-                     <div class="Footer_Image">
-                    <img src="assets/images/Icons/Footer/Vector.png" alt="">
-                    <img src="assets/images/Icons/Footer/Group 1000004509.png" alt="">
-                    <img src="assets/images/Icons/Footer/Saudi Vision 2030 Logo 1.png" alt="">
-                    <img src="assets/images/Icons/Footer/Screenshot 2025-04-21 at 2.07.40 PM.png" alt="">
-                </div>
-                <div class="Links">
+                <div class="test">
+                    <div class="Footer_Image">
+                        <img src="assets/images/Icons/Footer/Vector.png" alt="">
+                        <img src="assets/images/Icons/Footer/Group 1000004509.png" alt="">
+                        <img src="assets/images/Icons/Footer/Saudi Vision 2030 Logo 1.png" alt="">
+                        <img src="assets/images/Icons/Footer/Screenshot 2025-04-21 at 2.07.40 PM.png" alt="">
+                    </div>
+                    <div class="Links">
                         <ul>
                             <li><a href=""> المشاريع الجاهزة </a></li>
-                            <li><a href="">  الكوادر التقنية </a></li>
-                            <li><a href=""> أنظمة Erp    </a></li>
+                            <li><a href=""> الكوادر التقنية </a></li>
+                            <li><a href=""> أنظمة Erp </a></li>
                             <li><a href=""> التسويق </a></li>
-                            <li><a href=""> أعمالنا </a></li>    
-                            <li><a href="aboutus.html"> من نحن </a></li>    
-                            <li><a href=""> المدونة </a></li>    
+                            <li><a href=""> أعمالنا </a></li>
+                            <li><a href=""> من نحن </a></li>
+                            <li><a href=""> المدونة </a></li>
                         </ul>
                     </div>
-               </div>
+                </div>
 
             </div>
         </div>
         <hr />
         <div class="container" style="margin-bottom: 50px;">
             <div class="Social_Media">
-            <div class="Image_Social_Media">
-                <img src="assets/images/Icons/Footer/LinkedIn.png" alt="">
-                <img src="assets/images/Icons/Footer/Twitter.png" alt="">
-                <img src="assets/images/Icons/Footer/Facebook.png" alt="">
-                <img src="assets/images/Icons/Footer/Github.png" alt="">
-                <img src="assets/images/Icons/Footer/Instagram.png" alt="">
+                <div class="Image_Social_Media">
+                    <img src="assets/images/Icons/Footer/LinkedIn.png" alt="">
+                    <img src="assets/images/Icons/Footer/Twitter.png" alt="">
+                    <img src="assets/images/Icons/Footer/Facebook.png" alt="">
+                    <img src="assets/images/Icons/Footer/Github.png" alt="">
+                    <img src="assets/images/Icons/Footer/Instagram.png" alt="">
+                </div>
             </div>
-        </div>
-        <p style="color:#DDE1E8;direction: ltr;text-align: center;margin: 0;margin-top: 15px;">© 2025 <span style="color: #fff;"> HWZN. </span> All Rights Reserved.</p>
+            <p style="color:#DDE1E8;direction: ltr;text-align: center;margin: 0;margin-top: 15px;">© 2025 <span
+                    style="color: #fff;"> HWZN. </span> All Rights Reserved.</p>
         </div>
     </footer>
 
@@ -375,52 +469,17 @@
     <!-- ####################################################################### -->
 
 
-    <!-- ####################################################################### -->
+        <!-- ####################################################################### -->
     <!-- ###################### Start Menu Mobile ############################ -->
     <!-- ####################################################################### -->
     
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
         <div class="offcanvas-header">
-            <h5 id="offcanvasRightLabel">
-                <img src="assets/images/Icons/Footer/Screenshot 2025-04-21 at 2.07.40 PM.png" class="d-block m-auto" alt="">
-            </h5>
+            <h5 id="offcanvasRightLabel">Offcanvas right</h5>
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
-            <ul class="navbar-nav text-center Mobile_Menu">
-
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">المدونة</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="aboutus.html">من نحن</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">أعمالنا</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">التسويق</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#"> أنظمة ERP</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">الكوادر التقنية</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="projects.html">المشاريع الجاهزة</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="index.html">الرئيسية</a>
-                        </li>
-                    </ul>
+            ...
         </div>
     </div>
     <!-- ####################################################################### -->
@@ -441,42 +500,7 @@
     <!-- End Script Main Js -->
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script>
-        var swiper_project = new Swiper(".Swiper_Project", {
-            loop: true,
-            slidesPerView: 2,
-            centeredSlides: true,
-            effect: "coverflow",
-            coverflowEffect: {
-                rotate: 0,
-                stretch: 0,
-                depth: 300,
-                modifier: 3,
-                slideShadows: false,
-            },
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-        });
-
-
-        var Swiper_Reviews = new Swiper(".Swiper_Reviews", {
-            loop: true,
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-        });
-    </script>
+    <!-- قبل </body> مباشرة -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 <script>
   new WOW().init();
